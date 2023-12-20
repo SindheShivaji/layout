@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    max-width: 1500px;
+}
+.starting{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+a {
+    text-decoration: none;
+    color: black;
+  }
+  header{
+    display: flex;
+    justify-content: space-around ;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+   
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li {
+    font-weight: bold;
+}
+.call {
+    background-color: green;
+    padding:4px 12px;
+    border-radius: 10px;
+}
+.call:hover{
+    background-color: darkgreen;
+}
+nav{
+    border: 3px solid rgba(0, 30, 255, 0.119);
+    background-color: rgba(0, 30, 255, 0.119);
+    padding-left: 85px;
+    padding-right: 110px;
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/09/16/architecture-1868667_1280.jpg");
+    max-width: 100%;
+    color: #ffff;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+.schedule{
+    line-height: 35px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    border: none;
+    background-color: green;
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input{
+    border: none;
+    padding: 5px 0 8px 10px;
+}
+.p1{
+    background-color: rgb(66, 68, 67);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 1px 0;
+}
+.marketing{
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+.img{
+    height: 66vh;
+    background-image: url(https://valpowebdesign.com/wp-content/uploads/2023/02/vwd-portfolio.png);
+    background-size: cover;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;   
+}
+.btn-two{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn1 {
+    background-color: green;
+    padding: 12px 20px;
+    font-weight: bold;
+    color: white;
+    margin-right: 40px;
+}
+.btn2{
+    background-color: white;
+    border: 2px solid green;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: green;
+}
+.our{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.six-photos { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ } 
+.card { 
+    max-width: 450px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ .opacity-bg-image{
+    background-image: url(https://www.worldatlas.com/upload/62/89/67/shutterstock-432247444.jpg);
+    background-position: center;
+    height: 30vh;
+   margin-bottom: 30px;
+}
+.service{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.computer-image{
+    height: 25vh;
+    padding: 30px 0 0 20px
+}
+.two{
+line-height: 35px;
+width: 500px;
+}
+.service p {
+    font-weight: bold;
+    max-width: 800px;
+}
+.single-p{
+    line-height: 25px;
+    width: 75%;
+    margin: 0 auto; 
+}
+ .card:nth-child(2) {
+    margin: 10px 20px;
+ }
+.card img {
+     max-width: 410px;
+     height: auto;
+} 
+.card h1 {
+     margin: 15px 0;
+     font-size: 20px;
+}
+.card p {  
+    font-size: 14px;
+    line-height: 1.6;
+} 
+.card button {
+    background-color: #4CAF50;
+    color: white;
+}
+.Valpo{
+    text-align: center;
+}
+.span1{
+    color: green;
+}
+.message{
+    padding-bottom: 50px;
+}
+.green{
+    color: green;
+    font-size: 27px;
+}
+.Services{
+    margin-left: 20px;
+}
+.lines{
+    line-height: 50px;
+}
+  .row{
+    font-size: small;
+    
+  }
+  .plogo {
+    max-width: 150px;
+}
+ .logo{
+    max-width: 400px;
+ }
+ .row + .row{
+    margin-left: 100px;
+}
+.text{
+    font-weight: bold; 
+}
+.one{
+    color: rgba(0, 170, 255, 0.563);
+}
